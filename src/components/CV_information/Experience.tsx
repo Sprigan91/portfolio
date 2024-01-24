@@ -1,4 +1,3 @@
-import { Asterisk } from "phosphor-react";
 import React from "react";
 
 const experienceData = [
