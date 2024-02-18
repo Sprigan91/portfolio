@@ -12,7 +12,7 @@ const personalInfo = [
 const AboutMe = React.forwardRef<HTMLDivElement, {}>((props, ref) => {
   return (
     <div ref={ref} className="mx-10 my-10">
-      <div className="text-2xl underline decoration-sky-500 lg:text-5xl font-bold">
+      <div className="text-2xl underline decoration-sky-500 2xl:text-5xl font-bold">
         About
       </div>
       <p className="my-10">
@@ -25,7 +25,7 @@ const AboutMe = React.forwardRef<HTMLDivElement, {}>((props, ref) => {
       <div className="my-10 text-xl text-gray-800 font-bold">
         Technicien Service center / repairs and maintenance
       </div>
-      <div className="grid grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-1 2xl:grid-cols-2 2xl:gap-2 text-sm 2xl:text-lg">
+      <div className="grid grid-cols-1 gap-3  sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-1 2xl:grid-cols-2 2xl:gap-2 text-sm 2xl:text-lg">
         {personalInfo.map(({ label, value }, index) => (
           <div key={index} className="flex items-center space-x-3">
             <ArrowsIn size={32} />
